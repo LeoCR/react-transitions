@@ -1,0 +1,32 @@
+{
+  "name": "react-transitions",
+  "description": "Simple transitioning between screens using react, redux, styled-components and react-transition-group",
+  "version": "0.0.524",
+  "dependencies": {
+    "styled-components": "^2.2.4",
+    "redux-thunk": "^2.2.0",
+    "redux": "^3.7.2",
+    "react-transition-group": "^2.2.1",
+    "react-redux": "^5.0.6",
+    "react-dom": "^16.2.0",
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-minify": "^0.2.0",
+    "babel-preset-react": "^6.24.1",
+    "react-icons": "git+https://github.com/LeoCR/react-icons.git",
+    "react-scripts": "^1.0.17"
+  },
+  "babel": {
+    "babelrc": true
+  },
+  "scripts": {
+    "fixBug": "cd node_modules/react-icons/ && npm i",
+    "buildIcons": "cd node_modules/react-icons/ && npm run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
