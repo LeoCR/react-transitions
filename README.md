@@ -1,5 +1,5 @@
 # react-transitions
-React Transitions with Redux saved in CodeSanbox.io
+React Transitions with Redux 
  
 
 ## New Features:
